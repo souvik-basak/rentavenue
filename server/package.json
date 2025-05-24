@@ -16,6 +16,7 @@
     "postprisma:generate": "shx cp -r node_modules/.prisma/client/index.d.ts ../client/src/types/prismaTypes.d.ts"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.812.0",
     "@aws-sdk/lib-storage": "^3.787.0",
     "@prisma/client": "^6.6.0",
     "@terraformer/wkt": "^2.2.1",
